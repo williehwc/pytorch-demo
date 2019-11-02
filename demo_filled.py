@@ -137,7 +137,7 @@ rnn = RNN(len(all_letters), n_hidden, len(languages))
 # In[6]:
 
 
-# Feed just the 1st letter of the name "Abadi"
+# Feed just the 1st letter of the name "Abbas"
 input_tensor = torch.from_numpy(names_array)[0:1, 0, :]
 hidden_tensor = rnn.initHidden(1)
 output_tensor, next_hidden_tensor = rnn(input_tensor, hidden_tensor)
