@@ -9,4 +9,6 @@ Adapted from  [https://pytorch.org/tutorials/intermediate/char_rnn_classificatio
 
 **demo_filled.py**: Same as demo_filled.ipynb, but in Python format. Use a code editor or IDE to open.
 
-**demo_finished.py**: Same as demo_filled.py, but with optimizer and Tensorboard integration.
+**demo_finished.py**: Same as demo_filled.py, but with optimizer and TensorBoard integration. Use a code editor or IDE to open.
+
+![RNN Visualization](rnn_visualization.png)
